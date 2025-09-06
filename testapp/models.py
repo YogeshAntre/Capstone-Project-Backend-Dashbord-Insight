@@ -75,18 +75,3 @@ class Batting(models.Model):
     
     
 						
-# class Batting(models.Model):
-#     match = models.ForeignKey(Match, on_delete=models.CASCADE)
-#     player = models.ForeignKey(Player, on_delete=models.CASCADE)
-#     runs = models.IntegerField()
-#     balls = models.IntegerField()
-#     minutes = models.IntegerField(null=True, blank=True)
-#     dismissal = models.CharField(max_length=100, null=True, blank=True)
-#     fours = models.IntegerField(default=0)
-#     sixes = models.IntegerField(default=0)
-#     strike_rate = models.FloatField(null=True, blank=True)
-#     batting_position = models.IntegerField(null=True, blank=True)
-#     batting_team = models.CharField(max_length=100)
-
-#     class Meta:
-#         unique_together = ('match', 'player')  # Prevent duplicates

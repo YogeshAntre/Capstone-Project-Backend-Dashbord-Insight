@@ -23,8 +23,7 @@ staticfiles/
 */migrations/__pycache__/
 */migrations/*.pyc
 */migrations/*.pyo
-*/__init__.py
-*/migrations/__init__.py
+
 # Local settings
 local_settings.py
 settings_local.py
